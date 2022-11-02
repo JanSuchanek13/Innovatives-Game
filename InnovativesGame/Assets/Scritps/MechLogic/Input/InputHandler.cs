@@ -10,11 +10,11 @@ public class InputHandler : MonoBehaviour
 
 
 
-    private PlayerInput _playerInput;
+    private InputActions _playerInput;
 
     private void OnEnable()
     {
-        _playerInput = new PlayerInput();
+        _playerInput = new InputActions();
         _playerInput.LowerBody.Enable();
 
         _playerInput.LowerBody.Move.performed += SetMove;
