@@ -1,8 +1,9 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
+
 {
+    /*
     private PlayerInput playerInput;
     private void Awake()
     {
@@ -37,4 +38,5 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+     */
 }
