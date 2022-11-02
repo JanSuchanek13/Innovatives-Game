@@ -9,6 +9,7 @@ public class InputHandler : MonoBehaviour
     public Vector2 sprintInput { get; private set; } = Vector2.zero;
 
 
+
     private PlayerInput _playerInput;
 
     private void OnEnable()
